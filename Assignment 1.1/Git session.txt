@@ -1,0 +1,578 @@
+Script started on 2024-03-25 14:57:09+05:30 [TERM="xterm-256color" TTY="/dev/pts/0" COLUMNS="102" LINES="51"]
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# [7mscript -a ~/my_unix_session.txt[27mscript -a ~/my_unix_session.txt[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Ksudo apt-get install git
+[?2004lReading package lists... 0%Reading package lists... 100%Reading package lists... Done
+Building dependency tree... 0%Building dependency tree... 0%Building dependency tree... 50%Building dependency tree... 50%Building dependency tree... Done
+Reading state information... 0% Reading state information... 0%Reading state information... Done
+git is already the newest version (1:2.34.1-1ubuntu1.10).
+git set to manually installed.
+0 upgraded, 0 newly installed, 0 to remove and 0 not upgraded.
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# git 0[K--version
+[?2004lgit version 2.34.1
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# gti[K[Kit config --list --so[Khow-origin
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# git congif[K[K[Kgi[K[Kg[Kfig
+[?2004lusage: git config [<options>]
+
+Config file location
+    --global              use global config file
+    --system              use system config file
+    --local               use repository config file
+    --worktree            use per-worktree config file
+    -f, --file <file>     use given config file
+    --blob <blob-id>      read config from given blob object
+
+Action
+    --get                 get value: name [value-pattern]
+    --get-all             get all values: key [value-pattern]
+    --get-regexp          get values for regexp: name-regex [value-pattern]
+    --get-urlmatch        get value specific for the URL: section[.var] URL
+    --replace-all         replace all matching variables: name value [value-pattern]
+    --add                 add a new variable: name value
+    --unset               remove a variable: name [value-pattern]
+    --unset-all           remove all matches: name [value-pattern]
+    --rename-section      rename section: old-name new-name
+    --remove-section      remove a section: name
+    -l, --list            list all
+    --fixed-value         use string equality when comparing values to 'value-pattern'
+    -e, --edit            open an editor
+    --get-color           find the color configured: slot [default]
+    --get-colorbool       find the color setting: slot [stdout-is-tty]
+
+Type
+    -t, --type <>         value is given this type
+    --bool                value is "true" or "false"
+    --int                 value is decimal number
+    --bool-or-int         value is --bool or --int
+    --bool-or-str         value is --bool or string
+    --path                value is a path (file or directory name)
+    --expiry-date         value is an expiry date
+
+Other
+    -z, --null            terminate values with NUL byte
+    --name-only           show variable names only
+    --includes            respect include directives on lookup
+    --show-origin         show origin of config (file, standard input, blob, command line)
+    --show-scope          show scope of config (worktree, local, global, system, command)
+    --default <value>     with --get, use default value when missing entry
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# git config --global user.name "ramakeerthi-bhat"
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# git config --global user.name "ramakeerthi-bhat"[1P "ramakeerthi-bhat"[1P "ramakeerthi-bhat"[1P "ramakeerthi-bhat"[1P "ramakeerthi-bhat"e "ramakeerthi-bhat"m "ramakeerthi-bhat"a "ramakeerthi-bhat"i "ramakeerthi-bhat"l "ramakeerthi-bhat"[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[1Pbhat".bhat"[C[C[C[C@"t"i"g"e"r" [A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Ca"n"a"l"y"t"i"c"s"."c"o"m"[C
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# git config --global user.email "ramakeerthi.bhat@tigeranalytics.com"[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[7Pname "ramakeerthi-bhat"
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K --list --show-origin[K[K[K[K[K[K[K[K[K[K[K[K[K[K
+[?2004l[?1h=user.name=ramakeerthi-bhat[m
+user.email=ramakeerthi.bhat@tigeranalytics.com[m
+[K[?1l>[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# git help config
+[?2004l[?1049h[22;0;0t[?1h=GIT-CONFIG(1)                                Git Manual                               GIT-CONFIG(1)[m
+[m
+[1mNAME[0m[m
+       git-config - Get and set repository or global options[m
+[m
+[1mSYNOPSIS[0m[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] [--show-origin] [--show-scope] [-z|-[m -null] name [value [value-pattern]][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] --add name value[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--fixed-value] --replace-all name value [value-patt[m ern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-[m value] --get name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-[m value] --get-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [--show-origin] [--show-scope] [-z|--null] [--fixed-[m value] [--name-only] --get-regexp name_regex [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--type=<type>] [-z|--null] --get-urlmatch name URL[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--fixed-value] --unset-all name [value-pattern][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --rename-section old_name new_name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --remove-section name[m
+       [4mgit[24m [4mconfig[24m [<file-option>] [--show-origin] [--show-scope] [-z|--null] [--name-only] -l | --list[m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-color name [default][m
+       [4mgit[24m [4mconfig[24m [<file-option>] --get-colorbool name [stdout-is-tty][m
+       [4mgit[24m [4mconfig[24m [<file-option>] -e | --edit[m
+[m
+[1mDESCRIPTION[0m[m
+       You can query/set/replace/unset options with this command. The name is actually the section[m
+       and the key separated by a dot, and the value will be escaped.[m
+[m
+       Multiple lines can be added to an option by using the [1m--add[0m option. If you want to update or[m
+       unset an option which can occur on multiple lines, a [1mvalue-pattern[0m (which is an extended[m
+       regular expression, unless the [1m--fixed-value[0m option is given) needs to be given. Only the[m
+       existing values that match the pattern are updated or unset. If you want to handle the lines[m
+       that do [1mnot[0m match the pattern, just prepend a single exclamation mark in front (see also the[m
+       section called “EXAMPLES”), but note that this only works when the [1m--fixed-value[0m option is[m
+       not in use.[m
+[m
+       The [1m--type=<type>[0m option instructs [4mgit[24m [4mconfig[24m to ensure that incoming and outgoing values[m
+       are canonicalize-able under the given <type>. If no [1m--type=<type>[0m is given, no[m
+       canonicalization will be performed. Callers may unset an existing [1m--type[0m specifier with[m
+       [1m--no-type[0m.[m
+[m
+       When reading, the values are read from the system, global and repository local configuration[m
+       files by default, and options [1m--system[0m, [1m--global[0m, [1m--local[0m, [1m--worktree[0m and [1m--file[0m [1m<filename>[0m[m
+       can be used to tell the command to read from only that location (see the section called[m
+       “FILES”).[m
+[m
+       When writing, the new value is written to the repository local configuration file by[m
+[7m Manual page git-config(1) line 1 (press h for help or q to quit)[27m[K[K[?1l>[?1049l[23;0;0t[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# 
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhatroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat# cd Documents
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documentsroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents# mkdir my_project
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documentsroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents# cd my_project/
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /mnt/c/Users/ramakeerthi.bhat/Documents/my_project/.git/
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# echo "My te[Kest project" ?[K> README
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git status
+[?2004lOn branch master
+
+No commits yet
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mREADME[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git add README
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git status -s
+[?2004l[32mA[m  README
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# catr [K[K .gitignore
+[?2004lcat: .gitignore: No such file or directory
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git commit -m "Initial commit"
+[?2004l[master (root-commit) 8f8cec6] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git branch -M main
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git remote add origin [7mhttps://gith[27m[7mu[27m[7mb.com/ramakeerthi-bhat/test_repo.git[27m[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Chttps://github.com/ramakeerthi-bhat/test_repo.git
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git push origin -u [K[K[K[K[K[K[K[K[K[K[K[Kh -u origi [Kn main
+[?2004lUsername for 'https://github.com': ramakeerthi-bhat
+Password for 'https://ramakeerthi-bhat@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ramakeerthi-bhat/test_repo.git/'
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# cls
+[?2004lCommand 'cls' not found, but there are 18 similar ones.
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# clear
+[?2004l[H[2J[3J[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git stuatus[K[K[K[K[Katus
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git ps[Kush
+[?2004lfatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# [7mgit push -u origin main[27mgit push -u origin main
+[?2004lUsername for 'https://github.com': ramakeerthi-bhat
+Password for 'https://ramakeerthi-bhat@github.com': 
+remote: Support for password authentication was removed on August 13, 2021.
+remote: Please see https://docs.github.com/get-started/getting-started-with-git/about-remote-repositories#cloning-with-https-urls for information on currently recommended modes of authentication.
+fatal: Authentication failed for 'https://github.com/ramakeerthi-bhat/test_repo.git/'
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# cd [7m~/.ssh/id_rsa.pub[27m~/.ssh/id_rsa.pub[K[K[K[K[K[K[K[K[K[K
+[?2004lbash: cd: /root/.ssh/: No such file or directory
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# [7mcat ~/.ssh/id_rsa.pub[27mcat ~/.ssh/id_rsa.pub
+[?2004lcat: /root/.ssh/id_rsa.pub: No such file or directory
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# [7m ssh-keygen -o[27m ssh-keygen -o
+[?2004lGenerating public/private rsa key pair.
+Enter file in which to save the key (/root/.ssh/id_rsa): /mnt/c/Users/ramakeerthi.bhat/^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D^[[D                                                                                                              ^[[3~^[[3~^[[3~               
+Created directory '/root/.ssh'.
+Enter passphrase (empty for no passphrase): 
+Enter same passphrase again: 
+Your identification has been saved in /root/.ssh/id_rsa
+Your public key has been saved in /root/.ssh/id_rsa.pub
+The key fingerprint is:
+SHA256:EvuKAQ4yqhStuvBzx8qc5ptL07Hko332DYBPvpcvkns root@TIGER02959
+The key's randomart image is:
++---[RSA 3072]----+
+|                 |
+|                 |
+|      .          |
+|  .    +         |
+|+...  * S        |
+|o+o. + O .       |
+|oo. +.= +...     |
+|=..+oOoo=.Eo     |
+|+..=%=ooo*.oo    |
++----[SHA256]-----+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# [7mcat ~/.ssh/id_rsa.pub[27mcat ~/.ssh/id_rsa.pub
+[?2004lssh-rsa AAAAB3NzaC1yc2EAAAADAQABAAABgQDH4XtrE9a3OBY9JT1kDVcl9Bp+6c3h2TMbaYC+wpifEiTp+KL+e1PNp6cFLxAi0I9qVmbHFKjvchDSUa2IiN4E8qC8K91FEjx1LBEiUcy2A6mB0hL3WCy56Dve+G7oFxU5iGK9iLyjH8A5tKcPZxa72MTZOR/3y4GT+Kfru/Mf5/iD/DLTZdvs+G07HQXHDncKCI3Vf8MNUS74zcSbh82sy+GJswl6Wsdv20bew5nWwmcciQhjVgFiAcCJyxoUy7hAI89czdIeeKqqsRIlf/GpJ9Veendv+zt93w1+fZBeibAerOVrrhsaBYrajL5zPWGVn+TexKF8UaJH9t0GcoMbJ2E0aUnQl54YGeWv4uitekiurSHPFR/r+SHdavBaCuvJ1whBlyxhbGyMSCxIib3e25mg/NzVnxq/iBkRfqYxvAGHwyx3sE2D/8KtA09zdA2FNhQhKAAfoDBvNy3wNdVvbSNTnHTb+cOtbAd90OIG5KUTE1CTs9emhtongVLr3NU= root@TIGER02959
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# ^C[?2004l[?2004h[?2004l
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git status
+[?2004lOn branch main
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git remote add origin [7mgit@github.com:ramakeerthi-bha[27m[7mt[27m[7m/test_repo.git[27m[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cgit@github.com:ramakeerthi-bhat/test_repo.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git push
+[?2004lfatal: The current branch main has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin main
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# git push -u origin main
+[?2004lUsername for 'https://github.com': ramakeerth          ^C
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# cd ..
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documentsroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents# mkdir my_test_project
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documentsroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents# cd [K[K[Kls
+[?2004l[0m[34;42m'Assignment 1.1'[0m  [01;36m'My Pictures'[0m   [01;32mdesktop.ini[0m     [34;42mmy_project[0m        [34;42mnorth-pacific-gyre[0m   [34;42mthesis2[0m
+[01;36m'My Music'[0m        [01;36m'My Videos'[0m     [34;42mexercise-data[0m   [34;42mmy_test_project[0m   [34;42mthesis[0m
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documentsroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents# cd my_project/
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# ls
+[?2004l[0m[01;32mREADME[0m
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_project# cd [K ..
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documentsroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents# mv mt[Ky_project/README my_test_project/README
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documentsroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents# cd my_test_project/
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git init
+[?2004l[33mhint: Using 'master' as the name for the initial branch. This default branch name[m
+[33mhint: is subject to change. To configure the initial branch name to use in all[m
+[33mhint: of your new repositories, which will suppress this warning, call:[m
+[33mhint: [m
+[33mhint: 	git config --global init.defaultBranch <name>[m
+[33mhint: [m
+[33mhint: Names commonly chosen instead of 'master' are 'main', 'trunk' and[m
+[33mhint: 'development'. The just-created branch can be renamed via this command:[m
+[33mhint: [m
+[33mhint: 	git branch -m <name>[m
+Initialized empty Git repository in /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project/.git/
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git add *
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch master
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git branch -M main
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [7mgit remote add origin git@github.com:ramakeerth[27m[7mi[27m[7m-bhat/test_repo.git [27m
+[7mgit push -u origin main[27m[A[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git remote add origin git@github.com:ramakeerthi-bhat/test_repo.git
+git push -u origin main[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push -u origin main
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'github.com:ramakeerthi-bhat/test_repo.git'
+[m[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+
+No commits yet
+
+Changes to be committed:
+  (use "git rm --cached <file>..." to unstage)
+	[32mnew file:   README[m
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git statuspush -u origin mainremote add origin git@github.com:ramakeerthi-bhat/test_repo.git
+[?2004lerror: remote origin already exists.
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git remote add origin git@github.com:ramakeerthi-bhat/test_repo.git[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [C[C[C[Cstatus[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cpush -u origin main
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'github.com:ramakeerthi-bhat/test_repo.git'
+[m[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git branch -M main
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git branch -M main[5@push -u origin[C[C[C[C[C
+[?2004lerror: src refspec main does not match any
+[31merror: failed to push some refs to 'github.com:ramakeerthi-bhat/test_repo.git'
+[m[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git commit =[K-m "Initial commit"
+[?2004l[main (root-commit) ccc80f6] Initial commit
+ 1 file changed, 1 insertion(+)
+ create mode 100644 README
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git commit -m "Initial commit"[7Ppush -u origin main[5Pbranch -M[C[C[C[C[C
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git branch -M maincommit -m "Initial commit"[12Pbranch -M main[Kgit branch -M maincommit -m "Initial commit"[7Ppush -u origin main
+[?2004lThe authenticity of host 'github.com (20.207.73.82)' can't be established.
+ED25519 key fingerprint is SHA256:+DiY3wvvV6TuJJhbpZisF/zLDA0zPMSvHdkr4UvCOqU.
+This key is not known by any other names
+Are you sure you want to continue connecting (yes/no/[fingerprint])? yes
+Warning: Permanently added 'github.com' (ED25519) to the list of known hosts.
+Enumerating objects: 3, done.
+Counting objects:  33% (1/3)Counting objects:  66% (2/3)Counting objects: 100% (3/3)Counting objects: 100% (3/3), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 238 bytes | 14.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:ramakeerthi-bhat/test_repo.git
+ * [new branch]      main -> main
+Branch 'main' set up to track remote branch 'main' from 'origin'.
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [K]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [K]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [K]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# gi [Kt log
+[?2004l[?1h=[33mcommit ccc80f69179fc005d4203b19e805fbe721d284ea[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: ramakeerthi-bhat <ramakeerthi.bhat@tigeranalytics.com>[m
+Date:   Mon Mar 25 15:32:17 2024 +0530[m
+[m
+    Initial commit[m
+[K[?1l>[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git log --stat
+[?2004l[?1h=[33mcommit ccc80f69179fc005d4203b19e805fbe721d284ea[m[33m ([m[1;36mHEAD -> [m[1;32mmain[m[33m, [m[1;31morigin/main[m[33m)[m[m
+Author: ramakeerthi-bhat <ramakeerthi.bhat@tigeranalytics.com>[m
+Date:   Mon Mar 25 15:32:17 2024 +0530[m
+[m
+    Initial commit[m
+[m
+ README | 1 [32m+[m[m
+ 1 file changed, 1 insertion(+)[m
+[K[?1l>[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git [K[K[K[Kecho testing > test1.txt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# echo testing > test1.txt[C[1P.txt2.txt[C[C[C[C
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git add test1.txt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes to be committed:
+  (use "git restore --staged <file>..." to unstage)
+	[32mnew file:   test1.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest2.txt[m
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git commit -m "Adding test fi les"
+[?2004l[main 43fb301] Adding test files
+ 1 file changed, 1 insertion(+)
+ create mode 100644 test1.txt
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtest2.txt[m
+
+nothing added to commit but untracked files present (use "git add" to track)
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git commit [K[K[K[K[K[K[Kadd test2.txt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git oc[K[K[K commit --amend
+[?2004lhint: Waiting for your editor to close the file... [?2004h[?1049h[22;0;0t[1;51r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[49;45H(B[0;7m[ Reading... ](B[m[49;43H(B[0;7m[ Read 15 lines ](B[m[H(B[0;7m  GNU nano 6.2  /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project/.git/COMMIT_EDITMSG           [1;101H(B[m[50d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[50;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2dAdding test files[4d[36m# Please enter the commit message for your changes. Lines starting[5d# with '#' will be ignored, and an empty message aborts the commit.[6d#[7d# Date:      Mon Mar 25 15:36:18 2024 +0530[8d#[9d# On branch main[10d# Your branch is ahead of 'origin/main' by 1 commit.[11d#   (use "git push" to publish your local commits)[12d#[13d# Changes to be committed:[14d#[38;5;208m       [36mnew file:   test1.txt[15d#[38;5;208m       [36mnew file:   test2.txt[16d#[2d[39m(B[m[?12l[?25h[?25l[50;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[50;76H(B[0;7mM-B(B[m Backup File[K[51;2H(B[0;7mC(B[m Cancel[16X[51;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[51;76H(B[0;7m^T(B[m Browse[K[49d(B[0;7mFile Name to Write: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project/.git/COMMIT_EDITMSG       [49;96H(B[m[?12l[?25h[?25l[49;44H[1K (B[0;7m[ Writing... ](B[m[K[1;101H[49;43H(B[0;7m[ Wrote 15 lines ](B[m[50;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[2d[?25l[49d[J[51d[?12l[?25h[51;1H[?1049l[23;0;0t[?1l>[?2004l[K[main 6396e52] Adding test files
+ Date: Mon Mar 25 15:36:18 2024 +0530
+ 2 files changed, 2 insertions(+)
+ create mode 100644 test1.txt
+ create mode 100644 test2.txt
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 306 bytes | 18.00 KiB/s, done.
+Total 3 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:ramakeerthi-bhat/test_repo.git
+   ccc80f6..6396e52  main -> main
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git [K[K[K[Knano test[K[Kxt1.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;51r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[49;46H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                   text1.txt                                            [1;101H(B[m[50d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[50;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2d[?12l[?25h[?25l[1;60H(B[0;7m*[101G(B[m[?12l[?25h[2dw[?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hW[?25l[?12l[?25hh[?25l[?12l[?25ha[?25l[?12l[?25ht[?25l[?12l[?25h [?25l[?12l[?25hi[?25l[?12l[?25hs[?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[?12l[?25h[?25l[?12l[?25h [?25l[?12l[?25h [?25l[49d[K[?12l[?25h[2dW [?25l[?12l[?25h[K[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25h[?25l[?12l[?25hH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[?12l[?25h [?25l[?12l[?25hw[?25l[?12l[?25ho[?25l[?12l[?25hr[?25l[?12l[?25hd[?25l[?12l[?25h [?25l[?12l[?25hl[?25l[?12l[?25hd[?25l[50;15H      (B[0;7mM-C(B[m Case Sens       (B[0;7mM-B(B[m Backwards       (B[0;7m^P(B[m Older            (B[0;7m^T(B[m Go To Line[51;2H(B[0;7mC(B[m Cancel           (B[0;7mM-R(B[m Reg.exp.        (B[0;7m^R(B[m Replac[57G    (B[0;7m^N(B[m Newer[K[50;94H[A(B[0;7mSearch:                                                                                               [49;9H(B[m[?12l[?25h[?25l[49;44H[1K (B[0;7m[ Cancelled ](B[m[K[50;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[K[51;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Past[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[2;12H[?25l[50;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[50;76H(B[0;7mM-B(B[m Backup File[K[51;2H(B[0;7mC(B[m Cancel[16X[51;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[51;76H(B[0;7m^T(B[m Browse[K[49d(B[0;7mFile Name to Write: text1.txt                                                                         [49;30H(B[m[?12l[?25h[?25l[49;44H[1K (B[0;7m[ Writing... ](B[m[K[1;60H(B[0;7m [101G(B[m[49;44H(B[0;7m[ Wrote 1 line ](B[m[50;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[2;12H[?25l[49d[J[51d[?12l[?25h[51;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# ls
+[?2004l[0m[01;32mREADME[0m  [01;32mtest1.txt[0m  [01;32mtest2.txt[0m  [01;32mtext1.txt[0m
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# rm test1.txt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# ls
+[?2004l[0m[01;32mREADME[0m  [01;32mtest2.txt[0m  [01;32mtext1.txt[0m
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# nano text1.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;51r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[49;45H(B[0;7m[ Reading... ](B[m[49;44H(B[0;7m[ Read 1 line ](B[m[H(B[0;7m  GNU nano 6.2                                   text1.txt                                            [1;101H(B[m[50d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[50;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2dHello world[?12l[?25h[?25l[1;60H(B[0;7m*[101G(B[m[?12l[?25h[2dhHello worldh[?25l[?12l[?25heHello worldhe[?25l[?12l[?25hlHello worldhel[?25l[?12l[?25hllHello world[5G[?25l[?12l[?25hoHello world[6G[?25l[?12l[?25h Hello world[7G[?25l[50;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[50;76H(B[0;7mM-B(B[m Backup File[K[51;2H(B[0;7mC(B[m Cancel[16X[51;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[51;76H(B[0;7m^T(B[m Browse[K[49d(B[0;7mFile Name to Write: text1.txt                                                                         [49;30H(B[m[?12l[?25h[?25l[49;44H[1K (B[0;7m[ Writing... ](B[m[K[1;60H(B[0;7m [101G(B[m[49;44H(B[0;7m[ Wrote 1 line ](B[m[50;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[2;7H[?25l[49d[J[51d[?12l[?25h[51;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    test1.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtext1.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git checkout -- text2.txt
+[?2004lerror: pathspec 'text2.txt' did not match any file(s) known to git
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git checkout -- text2.txt[1P.txt1.txt[C[C[C[C
+[?2004lerror: pathspec 'text1.txt' did not match any file(s) known to git
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    test1.txt[m
+
+Untracked files:
+  (use "git add <file>..." to include in what will be committed)
+	[31mtext1.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# ait [K[K[K[Kgit add *
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git commit -m "Added fu[Kils[Kes"
+[?2004l[main 0e75d51] Added files
+ 1 file changed, 1 insertion(+)
+ create mode 100644 text1.txt
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git checkout -- text1.txt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    test1.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 292 bytes | 19.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:ramakeerthi-bhat/test_repo.git
+   6396e52..0e75d51  main -> main
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is up to date with 'origin/main'.
+
+Changes not staged for commit:
+  (use "git add/rm <file>..." to update what will be committed)
+  (use "git restore <file>..." to discard changes in working directory)
+	[31mdeleted:    test1.txt[m
+
+no changes added to commit (use "git add" and/or "git commit -a")
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# a[Kgit remotre [K[K[Ke -v
+[?2004lorigin	git@github.com:ramakeerthi-bhat/test_repo.git (fetch)
+origin	git@github.com:ramakeerthi-bhat/test_repo.git (push)
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git s[Ktag
+[?2004l[?1h=[K[?1l>[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git tag -a v1.1 -m "?[KInitial t age [K[K for 1.1"
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git tag -a v1.1 -m "Initial tag for 1.1"[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+[?2004l[?1h=v1.1[m
+[K[?1l>[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git [K[K[K[Kecho new > new.txt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git add *
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# f[Kgit commit -M[Km "Added new fiel s[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Kle s to test out tags"
+[?2004l[main fa6d92e] Added new files to test out tags
+ 1 file changed, 1 insertion(+)
+ create mode 100644 new.txt
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push
+[?2004lEnumerating objects: 4, done.
+Counting objects:  25% (1/4)Counting objects:  50% (2/4)Counting objects:  75% (3/4)Counting objects: 100% (4/4)Counting objects: 100% (4/4), done.
+Delta compression using up to 8 threads
+Compressing objects:  50% (1/2)Compressing objects: 100% (2/2)Compressing objects: 100% (2/2), done.
+Writing objects:  33% (1/3)Writing objects:  66% (2/3)Writing objects: 100% (3/3)Writing objects: 100% (3/3), 289 bytes | 13.00 KiB/s, done.
+Total 3 (delta 1), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/1)[Kremote: Resolving deltas: 100% (1/1)[Kremote: Resolving deltas: 100% (1/1), completed with 1 local object.[K
+To github.com:ramakeerthi-bhat/test_repo.git
+   0e75d51..fa6d92e  main -> main
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# nano test[K[K[Kext2.txt
+[?2004l[?2004h[?1049h[22;0;0t[1;51r(B[m[4l[?7h[39;49m[?1h=[?1h=[?25l[39;49m(B[m[H[2J[49;46H(B[0;7m[ New File ](B[m[H(B[0;7m  GNU nano 6.2                                   text2.txt                                            [1;101H(B[m[50d(B[0;7m^G(B[m Help[15G(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut[50;57H(B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51d(B[0;7m^X(B[m Exit[15G(B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste[57G(B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[2d[?12l[?25h[?25l[1;60H(B[0;7m*[101G(B[m[?12l[?25h[2dH[?25l[?12l[?25he[?25l[?12l[?25hl[?25l[?12l[?25hl[?25l[?12l[?25ho[?25l[50;15H           (B[0;7mM-D(B[m DOS Format           (B[0;7mM-A(B[m Append[15X[50;76H(B[0;7mM-B(B[m Backup File[K[51;2H(B[0;7mC(B[m Cancel[16X[51;26H(B[0;7mM-M(B[m Mac Format           (B[0;7mM-P(B[m Prepend[14X[51;76H(B[0;7m^T(B[m Browse[K[49d(B[0;7mFile Name to Write: text2.txt                                                                         [49;30H(B[m[?12l[?25h[?25l[49;44H[1K (B[0;7m[ Writing... ](B[m[K[1;60H(B[0;7m [101G(B[m[49;44H(B[0;7m[ Wrote 1 line ](B[m[50;15H(B[0;7m^O(B[m Write Out  (B[0;7m^W(B[m Where Is   (B[0;7m^K(B[m Cut        (B[0;7m^T(B[m Execute    (B[0;7m^C(B[m Location   (B[0;7mM-U(B[m Undo[51;2H(B[0;7mX(B[m Exit       (B[0;7m^R(B[m Read File  (B[0;7m^\(B[m Replace    (B[0;7m^U(B[m Paste      (B[0;7m^J(B[m Justify    (B[0;7m^/(B[m Go To Line (B[0;7mM-E(B[m Redo[?12l[?25h[2;6H[?25l[49d[J[51d[?12l[?25h[51;1H[?1049l[23;0;0t[?1l>[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git add .
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# go[Kit commit -m "Added another  file"
+[?2004l[main e64c1dd] Added another file
+ 2 files changed, 1 insertion(+), 1 deletion(-)
+ delete mode 100644 test1.txt
+ create mode 100644 text2.txt
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push origin main tag
+[?2004lfatal: tag shorthand without <tag>
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push origin main tag -a v 1,2 [K[K[K.2 -m "Test"
+[?2004lerror: unknown switch `a'
+usage: git push [<options>] [<repository> [<refspec>...]]
+
+    -v, --verbose         be more verbose
+    -q, --quiet           be more quiet
+    --repo <repository>   repository
+    --all                 push all refs
+    --mirror              mirror all refs
+    -d, --delete          delete refs
+    --tags                push tags (can't be used with --all or --mirror)
+    -n, --dry-run         dry run
+    --porcelain           machine-readable output
+    -f, --force           force updates
+    --force-with-lease[=<refname>:<expect>]
+                          require old value of ref to be at this value
+    --force-if-includes   require remote updates to be integrated locally
+    --recurse-submodules (check|on-demand|no)
+                          control recursive pushing of submodules
+    --thin                use thin pack
+    --receive-pack <receive-pack>
+                          receive pack program
+    --exec <receive-pack>
+                          receive pack program
+    -u, --set-upstream    set upstream for git pull/status
+    --progress            force progress reporting
+    --prune               prune locally removed refs
+    --no-verify           bypass pre-push hook
+    --follow-tags         push missing but relevant tags
+    --signed[=(yes|no|if-asked)]
+                          GPG sign the push
+    --atomic              request atomic transaction on remote side
+    -o, --push-option <server-specific>
+                          option to transmit
+    -4, --ipv4            use IPv4 addresses only
+    -6, --ipv6            use IPv6 addresses only
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push origin main tag -a v1.2 -m "Test"[K[K[K[K[K[K[K[K[K[K[K[K[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K
+[K[A[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[K[Kgit branch feature.[K/test
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git c[Kstatus
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git checkout feature.[K.[K/test
+[?2004lSwitched to branch 'feature/test'
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch feature/test
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git [K[K[K[Kecho new branch> branch.txt
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# ls
+[?2004l[0m[01;32mREADME[0m  [01;32mbranch.txt[0m  [01;32mnew.txt[0m  [01;32mtest2.txt[0m  [01;32mtext1.txt[0m  [01;32mtext2.txt[0m
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git add *
+[?2004l[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git commit -m "commiting to b ranch"
+[?2004l[feature/test e413da9] commiting to branch
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch.txt
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push
+[?2004lfatal: The current branch feature/test has no upstream branch.
+To push the current branch and set the remote as upstream, use
+
+    git push --set-upstream origin feature/test
+
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push -u feature.[K/test[C feature/testofeature/testrfeature/testifeature/testgfeature/test [A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cifeature/test[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[Cnfeature/test[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C feature/test[A]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# [C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C[C
+
+[?2004lEnumerating objects: 7, done.
+Counting objects:  14% (1/7)Counting objects:  28% (2/7)Counting objects:  42% (3/7)Counting objects:  57% (4/7)Counting objects:  71% (5/7)Counting objects:  85% (6/7)Counting objects: 100% (7/7)Counting objects: 100% (7/7), done.
+Delta compression using up to 8 threads
+Compressing objects:  25% (1/4)Compressing objects:  50% (2/4)Compressing objects:  75% (3/4)Compressing objects: 100% (4/4)Compressing objects: 100% (4/4), done.
+Writing objects:  16% (1/6)Writing objects:  33% (2/6)Writing objects:  50% (3/6)Writing objects:  66% (4/6)Writing objects:  83% (5/6)Writing objects: 100% (6/6)Writing objects: 100% (6/6), 528 bytes | 18.00 KiB/s, done.
+Total 6 (delta 2), reused 0 (delta 0), pack-reused 0
+remote: Resolving deltas:   0% (0/2)[Kremote: Resolving deltas:  50% (1/2)[Kremote: Resolving deltas: 100% (2/2)[Kremote: Resolving deltas: 100% (2/2), completed with 1 local object.[K
+remote: 
+remote: Create a pull request for 'feature/test' on GitHub by visiting:[K
+remote:      https://github.com/ramakeerthi-bhat/test_repo/pull/new/feature/test[K
+remote: 
+To github.com:ramakeerthi-bhat/test_repo.git
+ * [new branch]      feature/test -> feature/test
+Branch 'feature/test' set up to track remote branch 'feature/test' from 'origin'.
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git [K[K[K[Kgitr [K[K[K [Kt checkout main
+[?2004lSwitched to branch 'main'
+Your branch is ahead of 'origin/main' by 1 commit.
+  (use "git push" to publish your local commits)
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git merge feature [K[Ke/test
+[?2004lUpdating e64c1dd..e413da9
+Fast-forward
+ branch.txt | 1 [32m+[m
+ 1 file changed, 1 insertion(+)
+ create mode 100644 branch.txt
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git status
+[?2004lOn branch main
+Your branch is ahead of 'origin/main' by 2 commits.
+  (use "git push" to publish your local commits)
+
+nothing to commit, working tree clean
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# git push
+[?2004lTotal 0 (delta 0), reused 0 (delta 0), pack-reused 0
+To github.com:ramakeerthi-bhat/test_repo.git
+   fa6d92e..e413da9  main -> main
+[?2004h]0;root@TIGER02959: /mnt/c/Users/ramakeerthi.bhat/Documents/my_test_projectroot@TIGER02959:/mnt/c/Users/ramakeerthi.bhat/Documents/my_test_project# exit
+[?2004lexit
+
+Script done on 2024-03-25 16:08:14+05:30 [COMMAND_EXIT_CODE="0"]
